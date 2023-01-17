@@ -1,7 +1,9 @@
 package it.develhope;
 
-public class Main {
+public class Start {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+       Animal lion = new Animal("Lion");
+       lion.animalSound("Low");
+       lion.animalSound("High");
     }
 }
